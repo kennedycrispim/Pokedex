@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="images/icon.png" href="images/icon.png">
+  <title>Pokedex</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="pokedex">
+    <div class="visor">
+      <div class="main"></div>
+      <div class="second red"></div>
+      <div class="second yellow"></div>
+      <div class="second green"></div>
+    </div>
+    <div class="poke-body">
+      <div class="main-visor">
+        <div class="content_visor_principal">
+          <div class="box_icons_top">
+              <div class="led_visor"></div>
+              <div class="led_visor"></div>
+          </div>
+          <div id="box_pokemon_data" class="box_pokemon_data">
+              <div class="table_pokemon">
+                  <div class="cabecalho" style="color: white;">
+                      <div class="poke_titulo" style="text-align: left;">
+                        <p id="name"></p>
+                      </div>
+                      <div class="poke_titulo" style="text-align: right;">
+                        <p id="id"></p>
+                      </div>
+                      <div class="poke_titulo_img">
+                        <img id="img_shine" class="img_shine">
+                      </div>
+                  </div>
+                  <div class="body">
+                      <div id="tipo" class="tipo">
+
+                      </div>
+                      <div id="div_poke" class="div_poke">
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="box_icons_bot">
+              <div class="icons_bot_left">
+                  <div id="light_on" class="icon_bot"></div>
+              </div>
+              <div class="icons_bot_right">
+                  <div class="icon_audio"></div>
+                  <div class="icon_audio"></div>
+                  <div class="icon_audio"></div>
+              </div>
+          </div>
+      </div>
+      </div>
+      <div class="description-visor">
+        <div id="description" class="description">
+          <p id="box_description_text"></p>
+        </div>
+      </div>
+      <div class="data-visor">
+        <div class="data">
+          <div id="vi" class="vi">
+            <h1 id="pokemon_name" class="dados_poke_title"></h1>
+            <p id="pokemon_status" class="dados_poke_sub"></p>
+            <p id="pokemon_hp" class="dados_poke"></p>
+            <p id="pokemon_attack" class="dados_poke"></p>
+            <p id="pokemon_defense" class="dados_poke"></p>
+            <p id="pokemon_speed" class="dados_poke"></p>
+          </div>         
+          <button id="rotacao" class="girar btn_descricao">
+            <img src="images/rotate.png">
+          </button>
+          <button id="shine" class="shine btn_descricao">
+            <img src="images/star.png">
+          </button>
+          <button id="ligar" class="ligar btn_ligar">
+            <img src="images/power.png">
+          </button>
+          <button id="anterior" class="poke_btn anterior">
+            <img src="images/arrow_left.png">
+          </button>
+          <button id="proximo" class="poke_btn proximo">
+            <img src="images/arrow_right.png">
+          </button>
+          <div class="box_indice procurar">
+              <input class="caixa_indice" id="caixa_indice" type="text" maxlength="4">
+              <button id="btn_poke_pesquisa" class="btn_poke_pesquisa "></button>
+          </div>
+        </div>
+      </div>      
+    </div>
+    
+  </div>
+  
+  <audio id="musica" src="audio/pokemon.mp3" > 
+  <audio id="musica_botao" src="audio/botao.mp3" preload="auto"> 
+    <style>
+          #musica { display: none }
+          #musica_botao {display: none;}
+    </style>
+  <!-- Script em js -->
+  <script src="js/main.js"></script>
+</body>
+</html>
