@@ -5,7 +5,7 @@ Desenvolvedor: Kennedy Crispim Gonçalves
 GitHub: https://github.com/kennedycrispim
 LinkedIn: www.linkedin.com/in/kennedy-crispim
 
-A pokedex foi desenvolvida com base na API **PokéAPI**, sendo desenvolvida por meio da linguagem **Javascript**. A aplicação foi desenvolvida com HTML junto e CSS, ao qual foi utilizado o pré-processador SASS para auxiliar no desenvolvimento.
+A pokedex foi desenvolvida com base na API **PokéAPI**, sendo desenvolvida por meio da linguagem **Javascript**. A aplicação foi desenvolvida com HTML junto e CSS, ao qual foi utilizado o pré-processador SASS/SCSS para auxiliar no desenvolvimento.
 O projeto foi desenvolvido utilizando a IDE **VSCode**.
 
 
