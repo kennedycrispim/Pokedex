@@ -17,3 +17,4 @@ O projeto foi desenvolvido utilizando a IDE **VSCode**.
 - Função de liga/desliga.
 - Recursos de áudio.
 
+[Preview](https://poke-api-info.netlify.app/)
